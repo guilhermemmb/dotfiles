@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ">>> Installing atom packages"
 
-apm install \
+apm install --check -c\
 linter \
 linter-eslint \
 color-picker \
@@ -15,10 +15,9 @@ sublime-style-column-selection \
 regex-railroad-diagram \
 git-log \
 todo-show \
-git-tab-status \
 tabs-to-spaces \
 git-history \
-coffe-compile \
+coffee-compile \
 minimap \
 vim-mode \
 ex-mode
